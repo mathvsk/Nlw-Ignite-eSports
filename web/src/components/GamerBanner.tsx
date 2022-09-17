@@ -6,7 +6,7 @@ interface GammerBannerProps {
 
 export function GammerBanner(props: GammerBannerProps) {
     return (
-        <a href="" className="relative rounded-lg overflow-hidden">
+        <a href="https://www.twitch.tv/directory" className="relative rounded-lg overflow-hidden" target="_blank">
           <img src={props.bannerUrl} alt="" />
 
           <div className="w-full pt-16 pb-4 px-4 bg-game-gradient absolute bottom-0 left-0 right-0">
